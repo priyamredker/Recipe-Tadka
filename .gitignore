@@ -1,0 +1,65 @@
+# Flutter / Dart
+# See https://github.com/flutter/flutter/wiki/Popular-Resources#gitignore
+
+# Build outputs
+build/
+.dart_tool/
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Files created by pub
+.packages
+
+# Optional: lockfile for apps can be committed. Uncomment to ignore if desired
+# pubspec.lock
+
+# Generated iOS files
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# Generated Android files
+android/.gradle/
+**/android/**/build/
+
+# Local config (do not commit)
+local.properties
+android/key.properties
+
+# Sensitive/secret files (do NOT commit)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Misc
+*.class
+*.pyc
+*.swp
+
+# Keep this project-specific: files or folders you intentionally want to track
+# (for example `firebase.json`) should NOT be added here unless you want
+# them excluded from version control.
+
+# Ignore built windows binaries
+android/app/kiro-ide-0.6.0-stable-win32-x64.exe
+android/app/ChromeSetup.exe
+*.exe
+*.exe
+android/app/*.exe
